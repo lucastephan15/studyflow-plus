@@ -7,6 +7,25 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## 🚀 Como rodar o projeto (Passo a passo simples)
+
+Se você já tem o projeto no seu computador:
+
+1. **Abra o terminal** na pasta do projeto.
+2. **Instale as dependências** rodando o comando:
+   ```bash
+   npm install
+   ```
+3. **Inicie o projeto** com o comando:
+   ```bash
+   npm run dev
+   ```
+4. **Acesse no navegador**: O terminal vai mostrar um link (geralmente `http://localhost:5173`). Clique nele ou copie e cole no seu navegador.
+
+> **Login de acesso:**
+> - **Usuário:** admin
+> - **Senha:** admin
+
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
